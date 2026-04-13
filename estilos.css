@@ -1,0 +1,189 @@
+body {
+    color: #fefae0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    color: #e5e5e5;
+}
+
+#bienvenida {
+    color: #fefae0;
+}
+
+.subtitulos {
+    color: #fed9b7;
+}
+
+.seccion-a {
+    background-color: #00afb9;
+    color: #fed9b7;
+    border-radius: 10px;
+}
+
+.seccion-b {
+    background-color: #f07167;
+    color: #e5e5e5;
+    border-radius: 10px;
+}
+
+.imagen-follow-page {
+    width: 50px;
+}
+
+.section-about-me {
+    width: 66%;
+}
+
+.section-about-me-titulo {
+    background-color: #bc6c25;
+    color: #fefae0;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.section-about-me-subtitulo {
+    background-color: #283618;
+    color: #dda15e;
+    padding: 10px 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.about-me-image {
+    width: 100px;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.section-about-me-content {
+    text-align: justify;
+}
+
+.quote-phrase {
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.to-start-header {
+    background-color: #ef476f;
+    color: #ffffff;
+    border-radius: 6px;
+    border-color: #000000;
+}
+
+.in-progress-header {
+    background-color: #ffd166;
+    color: #000000;
+    border-radius: 6px;
+    border-color: #000000;
+}
+
+.completed-header {
+    background-color: #06d6a0;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.to-start-data {
+    background-color: #ef476f;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.in-progress-data {
+    background-color: #ffd166;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.completed-data {
+    background-color: #06d6a0;
+    color: #ffffff;
+    border-radius: 6px;
+}
+
+.clear-section {
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 6px;
+}
+
+.cell-header {
+    padding: 10px 20px;
+    width: 300px;
+    border-color: #000000;
+    border-radius: 6px;
+    border-width: 6px;
+    border-style: solid;
+}
+
+.cell-header:hover {
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.cell-data {
+    padding: 10px 20px;
+    width: 300px;
+    border-radius: 6px;
+    border-bottom-right-radius: 18px;
+    border-color: #000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.cell-data:hover {
+    box-shadow: 0px 0px 10px #000000;
+}
+
+.cell-empty {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.task-table {
+    padding-bottom: 40px;
+}
+
+.table-main-header {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-width: 8px;
+    border-radius: 50px;
+    border-style: dotted;
+    border-color: #26547c;
+}
+
+.back-button-crazy {
+    background-image: url("iconos/background.png");
+    width: 200px;
+    padding: 20px 20px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: #000000;
+    border-style: solid;
+}
+
+.color-page-body {
+    background-color: #0081a7;
+}
+
+.color-page-h1 {
+    color: #fdfcdc;
+}
+
+.color-page-p {
+    color: #fed9b7;
+}
+
+.color-page-span {
+    color: #f07167;
+}
+
+.welcome-image {
+    width: 150px;
+    border-radius: 10px;
+}
