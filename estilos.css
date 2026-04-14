@@ -6,67 +6,41 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
-
-nav ul {
-    list-style: none;
-    padding: 10px;
-    background-color: #2a2a2c;
-    text-align: center;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #c4956a;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
 p {
     color: #c8bfb4;
 }
-
 #bienvenida {
     color: #e0d8cc;
 }
-
 .subtitulos {
     color: #c4956a;
 }
-
 .seccion-a {
     background-color: #2e4a5a;
     color: #e0d8cc;
     border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 }
-
 .seccion-b {
     background-color: #4a2e2a;
     color: #c8bfb4;
     border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
 }
-
 .imagen-follow-page {
     width: 50px;
 }
-
 .section-about-me {
     width: 66%;
 }
-
 .section-about-me-titulo {
     background-color: #5a3a1e;
     color: #e0d8cc;
     padding: 10px;
     border-radius: 10px;
 }
-
 .section-about-me-subtitulo {
     background-color: #2a2e2a;
     color: #c4956a;
@@ -74,17 +48,14 @@ p {
     margin: 10px 0;
     border-radius: 10px;
 }
-
 .about-me-image {
     width: 100px;
     border-radius: 10px;
     margin-right: 15px;
 }
-
 .section-about-me-content {
     text-align: justify;
 }
-
 .quote-phrase {
     color: #e0d8cc;
     font-size: 24px;
@@ -92,51 +63,38 @@ p {
     padding: 10px 20px;
     margin-bottom: 10px;
 }
-
 .to-start-header {
     background-color: #7a3040;
     color: #e0d8cc;
     border-radius: 6px;
     border-color: #555555;
 }
-
 .in-progress-header {
     background-color: #6a5a20;
     color: #e0d8cc;
     border-radius: 6px;
     border-color: #555555;
 }
-
 .completed-header {
     background-color: #2a5e48;
     color: #e0d8cc;
     border-radius: 6px;
 }
-
 .to-start-data {
     background-color: #7a3040;
     color: #e0d8cc;
     border-radius: 6px;
 }
-
-.in-progress-data {
-    background-color: #6a5a20;
-    color: #e0d8cc;
-    border-radius: 6px;
-}
-
 .completed-data {
     background-color: #2a5e48;
     color: #e0d8cc;
     border-radius: 6px;
 }
-
 .clear-section {
     background-color: #2c2c2e;
     color: #e0d8cc;
     border-radius: 6px;
 }
-
 .cell-header {
     padding: 10px 20px;
     width: 300px;
@@ -145,11 +103,9 @@ p {
     border-width: 6px;
     border-style: solid;
 }
-
 .cell-header:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-
 .cell-data {
     padding: 10px 20px;
     width: 300px;
@@ -159,20 +115,12 @@ p {
     border-width: 1px;
     border-style: solid;
 }
-
 .cell-data:hover {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
-
-.cell-empty {
-    background-color: transparent;
-    border-color: transparent;
-}
-
 .task-table {
     padding-bottom: 40px;
 }
-
 .table-main-header {
     padding: 10px 20px;
     border-width: 8px;
@@ -180,7 +128,6 @@ p {
     border-style: dotted;
     border-color: #4a6a8a;
 }
-
 .back-button-crazy {
     background-image: url("iconos/background.png");
     width: 200px;
@@ -190,69 +137,72 @@ p {
     border-color: #555555;
     border-style: solid;
 }
-
 .color-page-body {
     background-color: #1e3a4a;
 }
-
 .color-page-h1 {
     color: #e0d8cc;
 }
-
 .color-page-p {
     color: #c4956a;
 }
-
 .color-page-span {
     color: #a06858;
 }
-
 .welcome-image {
     width: 150px;
     border-radius: 10px;
 }
-
-.playlist-contenedor {
+.lista-canciones {
     text-align: center;
 }
-
-.playlist-aside,
-.playlist-main {
+.panel-lateral,
+.panel-principal {
     display: inline-block;
     vertical-align: top;
     height: 80vh;
 }
-
-.playlist-aside {
+.panel-lateral {
     background-color: #2a2a2c;
     width: 25%;
 }
-
-.playlist-aside ul {
-    list-style: none;
+.panel-lateral ul {
     padding: 20px;
 }
-
-.playlist-aside li {
+.panel-lateral li {
+    list-style-type: none;
     margin: 10px 0;
 }
-
-.playlist-aside a {
+.panel-lateral a {
     color: #c4956a;
     text-decoration: none;
 }
-
-.playlist-aside a:hover {
+.panel-lateral a:hover {
     text-decoration: underline;
 }
-
-.playlist-main {
+.panel-principal {
     background-color: #232325;
     width: 70%;
-    overflow-y: scroll;
     text-align: center;
 }
-
-.playlist-item {
-    padding: 20px;
+.footer {
+    background-color: #2a2a2c;
+    text-align: center;
+    padding: 10px;
+}
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer ul li a {
+    color: #c4956a;
+    text-decoration: none;
+}
+.footer ul li a:hover {
+    text-decoration: underline;
 }
