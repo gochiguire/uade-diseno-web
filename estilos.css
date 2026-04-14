@@ -6,6 +6,29 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+.site-header {
+    background-color: #2c2c2e;
+    border-bottom: 2px solid #444444;
+    padding: 12px 24px;
+}
+.site-header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.site-header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+.site-header nav ul li a {
+    color: #e0d8cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+.site-header nav ul li a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
 p {
     color: #c8bfb4;
 }
@@ -64,69 +87,68 @@ p {
     margin-bottom: 10px;
 }
 .to-start-header {
-    background-color: #7a3040;
-    color: #e0d8cc;
+    background-color: #f5c6cb;
+    color: #000000;
     border-radius: 6px;
-    border-color: #555555;
+    border-color: #000000;
 }
 .in-progress-header {
-    background-color: #6a5a20;
-    color: #e0d8cc;
+    background-color: #fff3cd;
+    color: #000000;
     border-radius: 6px;
-    border-color: #555555;
+    border-color: #000000;
 }
 .completed-header {
-    background-color: #2a5e48;
-    color: #e0d8cc;
+    background-color: #c3e6cb;
+    color: #000000;
     border-radius: 6px;
 }
 .to-start-data {
-    background-color: #7a3040;
-    color: #e0d8cc;
+    background-color: #fdecea;
+    color: #000000;
     border-radius: 6px;
 }
 .completed-data {
-    background-color: #2a5e48;
-    color: #e0d8cc;
+    background-color: #eaf6ed;
+    color: #000000;
     border-radius: 6px;
 }
 .clear-section {
-    background-color: #2c2c2e;
-    color: #e0d8cc;
+    background-color: #ffffff;
+    color: #000000;
+    border: 4px solid #000000;
     border-radius: 6px;
+    padding: 20px;
 }
 .cell-header {
     padding: 10px 20px;
     width: 300px;
-    border-color: #555555;
+    border-color: #000000;
     border-radius: 6px;
-    border-width: 6px;
+    border-width: 2px;
     border-style: solid;
 }
 .cell-header:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .cell-data {
     padding: 10px 20px;
     width: 300px;
     border-radius: 6px;
     border-bottom-right-radius: 18px;
-    border-color: #555555;
+    border-color: #000000;
     border-width: 1px;
     border-style: solid;
 }
 .cell-data:hover {
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .task-table {
     padding-bottom: 40px;
 }
 .table-main-header {
     padding: 10px 20px;
-    border-width: 8px;
-    border-radius: 50px;
-    border-style: dotted;
-    border-color: #4a6a8a;
+    color: #000000;
 }
 .back-button-crazy {
     background-image: url("iconos/background.png");
