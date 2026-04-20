@@ -55,6 +55,29 @@ p {
 .imagen-follow-page {
     width: 50px;
 }
+.seccion-icono {
+    display: inline-block;
+    padding: 15px 20px;
+    text-align: center;
+    vertical-align: top;
+    background-color: #ffffff;
+    border-radius: 12px;
+    color: #1c1c1e;
+    margin: 8px;
+}
+.seccion-icono a {
+    text-decoration: none;
+    color: #1c1c1e;
+}
+.etiqueta-icono {
+    display: block;
+    margin-top: 8px;
+    color: #1c1c1e;
+    font-size: 14px;
+}
+.seccion-icono:hover {
+    background-color: #e0d8cc;
+}
 .section-about-me {
     width: 66%;
 }
@@ -75,6 +98,7 @@ p {
     width: 320px;
     border-radius: 10px;
     margin-right: 15px;
+    display: block;
 }
 .section-about-me-content {
     text-align: justify;
@@ -162,14 +186,43 @@ p {
 .color-page-body {
     background-color: #1e3a4a;
 }
+.color-page-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    text-align: center;
+}
 .color-page-h1 {
     color: #e0d8cc;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.color-page-content {
+    background-color: #2e4a5a;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
 }
 .color-page-p {
     color: #c4956a;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 0;
 }
 .color-page-span {
     color: #a06858;
+}
+.boton-coolors {
+    display: inline-block;
+    background-color: #c4956a;
+    color: #1c1c1e;
+    padding: 12px 28px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.boton-coolors:hover {
+    background-color: #e0d8cc;
 }
 .welcome-image {
     width: 150px;
@@ -227,4 +280,13 @@ p {
 }
 .footer ul li a:hover {
     text-decoration: underline;
+}
+
+.song-section {
+    padding: 20px;
+    text-align: center;
+}
+.song-section h1 {
+    color: #e0d8cc;
+    margin-bottom: 20px;
 }
